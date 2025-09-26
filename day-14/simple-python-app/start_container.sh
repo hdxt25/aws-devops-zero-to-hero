@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
+docker pull hdxt25/ultimate-cide:1
 
 # Run the Docker image as a container
-echo
+docker run -itd -p 5000:5000  hdxt25/ultimate-cide:1
